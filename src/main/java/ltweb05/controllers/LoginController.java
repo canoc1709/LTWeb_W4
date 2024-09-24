@@ -16,7 +16,7 @@ import ltweb05.models.UserModel;
 import ltweb05.services.implement.userServiceImplement;
 
 //@SuppressWarnings("serial")
-@WebServlet(urlPatterns = {"/login", "/abc"})
+@WebServlet(urlPatterns = {"/login"})
 public class LoginController extends HttpServlet {
 	/**
 	 * 

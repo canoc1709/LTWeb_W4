@@ -12,7 +12,7 @@ import ltweb05.services.implement.userServiceImplement;
 import jakarta.servlet.http.HttpServletResponse;
 
 @SuppressWarnings("serial")
-@WebServlet(urlPatterns = {"/register", "/def"})
+@WebServlet(urlPatterns = {"/register"})
 public class RegisterController<Date> extends HttpServlet {
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

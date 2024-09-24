@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sitemesh>
+	<!-- Tạo bộ lọc để lấy layout, ví dụ /home layout nào, /admin layout nào? -->
+	<sitemesh>
+		<mapping path="/*" decorator="login.jsp" />
+		<mapping path="/admin/*" decorator="admin.jsp" />
+		<mapping path="/manager/*" decorator="manager.jsp" />
+		<mapping path="/v1/api/*" exclude = "true" />
+	</sitemesh>
+</sitemesh>
